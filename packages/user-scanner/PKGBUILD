@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=user-scanner
-pkgver=1.3.4
+pkgver=1.3.5
 pkgrel=1
 pkgdesc='OSINT tool that analyzes username and email presence across multiple platforms, intended for security research, investigations, legitimate analysis.'
 arch=('any')
@@ -13,7 +13,7 @@ depends=('python' 'python-httpx' 'python-socksio' 'python-colorama')
 makedepends=('python-build' 'python-installer' 'python-setuptools'
              'python-wheel' 'python-flit-core')
 source=("$url/archive/refs/tags/v$pkgver.tar.gz")
-sha512sums=('ca9b452e6b421d26cb954a162b51a959d8a5f15f140b96032301c75b365165811298367bc56aa50ef4a5e28266baf01402ab4fe92e5d3bf10012cd6a2d1c62ad')
+sha512sums=('046fd708cbe7d8a185a67888370a20f45b9c4f9eed5a747d0226d5e24c59ac8275f69443e42f976205c6adf6565d1afcbe8adb61a27b8830070fa8f29378e0c9')
 
 build() {
   cd "$pkgname-$pkgver"
